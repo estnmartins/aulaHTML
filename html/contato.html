@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gama Academy - Contato</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+
+
+</head>
+
+<body>
+
+    <!-- Tipos de Titulo na pagiuna em HTML
+    <h1>Seja Bem Vindo a nossa super paginaa</h1>
+    -->
+
+    <!-- Tabela para o menu -->
+    <table border="0" width="100%" cellpadding="2">
+        <tr>
+            <td><a href="../html/index.html"><img src="../imagens/logo.png" width="250" height="100" class="menu"></a></td>
+            <td align="right">QUEM SOMOS</td>
+            <td align="right">CURSOS ONLINE</td>
+            <td align="right">GAMA EXPERIENCE</td>
+            <td align="right">PARA EMPRESAS</td>
+            <td align="right">CONTATO</td>
+            <td align="right">CONTEUDO</td>
+
+        </tr>
+    </table>
+    <br>
+    <form id="formulario_contato" method="POST">
+        <fieldset>
+            <legend><b>Para fazer os nossos cursos, preencha o formulario abaixo</b></legend>
+                    <label>Nome:</label><input type="text" name="nome" class="campo_nome" required><br><br>
+                    <label>Email:</label><input type="email" name="email" class="campo_email" required><br><br>
+                    <label>Telefone:</label><input type="tel" name="telefone" required>
+                    <label>Senha:</label><input type="password" name="senha" class="campo_senha" required><br><br>
+                    <label>Genero:</label>
+                            <input type="radio" name="opcao" value="Feminino" /> Feminino
+                            <input type="radio" name="opcao" value="Masculino" /> Masculino
+                            <input type="radio" name="opcao" value="Não Responder" /> Não Responder <br><br>
+                    <label>Data do Curso: </label><input type="date" name="data_curso" class="campo_data"><br><br>
+                    <label>Escolha o Curso deseja:</label>
+                        <select class="campo_escolha"required>
+                            <option value=""></option>
+                            <option value="CSS">CSS</option>
+                            <option value="HTML">HTML</option>
+                            <option value="JS">JS</option>
+                            <option value="XML">XML</option>
+                        </select><br><br>
+                            <label>Escolha o periodo que deseja:</label>
+                            <input type="checkbox" name="manha"> Manhã
+                            <input type="checkbox" name="tarde"> Tarde
+                            <input type="checkbox" name="noite"> Noite <br><br>
+                        <label>Mensagem</label><br>
+                            <textarea name="mensagem" cols="35" rows="4"></textarea><br><br>
+                            <label>Anexar comprovante de residência:</label><br><input type="file" name="arquivo"><br><br>
+                    <input type="submit" name="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

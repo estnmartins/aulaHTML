@@ -1,0 +1,77 @@
+
+    p{
+        color: blue;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+    }
+
+    body{
+        background-color: rgba(33, 120, 136, 0.411);
+    }
+
+    .menu{
+        color: rgba(15, 8,78);
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .lista{
+        color: rgb(54, 5, 70);
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;            
+    }
+
+    /*label{
+    color: rgba(15, 8,78);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    }
+    */
+
+    legend{
+        color: rgb(8, 59, 11);
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    #formulario_contato{
+        background-color: rgb(169, 202, 169);
+        color: rgba(15, 8,78);
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .campo_nome{
+        /* background-color: rgba(184, 202, 218, 0.815); */
+        position: absolute;
+        left: 85px;
+        width: 260px;
+    }
+
+    .campo_data{
+        background-color: rgba(184, 202, 218, 0.815);
+        position: absolute;
+    }
+
+    .campo_escolha{
+        background-color: rgba(184, 202, 218, 0.815);
+        position: absolute;
+        width: 70px;
+    }
+
+    .campo_email{
+        position: absolute;
+        left: 85px;
+        width: 280px;
+    }
+
+    .campo_senha{
+        position: absolute;
+        left: 340px;
+        width: 50px;
+    }
